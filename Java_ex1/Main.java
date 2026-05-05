@@ -1,11 +1,9 @@
 public class Main {
     static void main() {
-        Carro carro = new Carro("Toyota",100, 4);
-        Carro carro1 = new Carro("Fiat", 90, 2);
+        Cachorro cachorro1 = new Cachorro("Rex", 10, "Golden", 4);
+        Passaro passaro1 = new Passaro("Piti", 4,"Calopsita", 2);
 
-        carro.mostrarInfo();
-        carro.acelerar();
-        carro1.mostrarInfo();
-        carro1.acelerar();
+        cachorro1.emitirSom();
+        passaro1.emitirSom();
     }
 }
